@@ -1,0 +1,249 @@
+	body {background-color: #252525;
+		margin: 0;
+	}
+
+
+/* Essa classe foi usada para alinhar a imagem e deixar ela responsiva,
+usei somente uma vez para uma logo*/
+	.post-content{
+		max-width:100%;
+	}
+	.post-content img{
+		max-width:100% !important;
+	}
+
+	
+/*Essa clase foi usado para ajustar uma logo especifica */
+	#ajuste_logo
+	{
+		height: 25px;
+		width: auto;
+		margin: 5px;
+	}
+
+#ajuste_logo2
+		{
+			height: 100px;
+			width: auto;
+			float:center;
+		}
+
+		.header {
+
+			width: 100%;
+			background:black;
+			height: 35px;
+			display: block;
+		}
+
+
+
+		.logo_ingresso img{
+			position: absolute;
+			margin-top: 15px;
+			margin-left: 10px;
+		}
+
+
+/*Essa foi usada para alinhar a logo no meio do footer*/
+	img.displayed {
+		display: block;
+		margin-left: auto;
+		margin-right: auto }
+
+
+		
+		
+
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			text-decoration: none;
+		}
+
+		@media only screen and (max-width: 480px) {
+			#trocar_resolucao_mobile{ 
+				display: none !important; 
+			} 
+
+			.header3{
+				height: 60px;
+				background-color: black;
+			}
+		}
+
+		@media only screen and (max-width: 480px) {
+			#trocar_resolucao_mobile2 img{ 
+
+				width: auto;
+
+
+				height: 45px;
+				margin-left: 60px;
+			} 
+
+			.header2 header{
+				height: 50px;
+			}
+
+			#ajuste{
+				height: 80px;
+				width: auto;
+				display: block;
+
+				margin-top: 50px;
+			}
+
+
+		}
+
+		footer{
+			height: 100px;
+			background-color: #000000;
+		}
+
+
+		/* Essas Classes foram usadas para alinhar o search box
+		que fica perto do footer */
+
+		.topnav {
+			overflow: hidden;
+
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: red;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+
+		}
+
+
+		.topnav .search-container {
+			float: left;
+		}
+
+		.topnav input[type=text] {
+			padding: 6px;
+			margin-top: 8px;
+			margin-right: 8px;
+			font-size: 17px;
+			border: none;
+		}
+
+		.topnav .search-container button {
+			float: right;
+			padding: 6px;
+			margin-top: 8px;
+			margin-right: 16px;
+			background: #3378c2;
+			font-size: 17px;
+			width: 90px;
+			border: none;
+			cursor: pointer;
+			color: white;
+		}
+
+
+		@media screen and (max-width: 600px) {
+			.topnav .search-container {
+				float: none;
+			}
+			.topnav a, .topnav input[type=text]{
+				float: none;
+				display: block;
+				text-align: left;
+				width: 450px;
+				height: 20px;
+				margin: 0;
+				padding: 14px;
+			}
+
+			.topnav .search-container button {
+				float: left;
+				padding: 6px 6px;
+				margin-top: 8px;
+				margin-right: 16px;
+				background: #ddd;
+				font-size: 17px;
+				border: none;
+				background-color: #3378c2;
+				cursor: pointer;
+			}
+
+			.topnav input[type=text] {
+				border: 1px solid #ccc;  
+			}
+		}
+
+		p{
+			color: white;
+			font-size: 12px;
+			font-family: 'Ubuntu', sans-serif;
+			margin-top: 12px;
+		}
+
+		h1{
+			color: white;
+			font-size: 25px;
+			font-family: 'Ubuntu', sans-serif;
+			margin-top: 40px;
+		}
+
+		hr {
+
+			background-color: #464646;
+		}
+
+		ul{
+			color: white
+		}
+
+		ul.disc {
+			list-style-type: disc;
+		}
+
+		li::before {content: "•"; color: white;
+		display: inline-block; width: 1em;
+		margin-left: -0.3em;
+
+	}
+
+	li{
+		font-size: 12px;
+		font-family: 'Ubuntu', sans-serif;
+		text-align: justify;
+	}
+
+
+/*Esssas classes foram criadas para ajudar a montar as tables*/
+	table.darkTable {
+		font-family: Verdana, Geneva, sans-serif;
+		background-color: #4A4A4A;
+		width: 78%;
+		height: 113px;
+		text-align: center;
+		border-collapse: collapse;
+	}
+	table.darkTable td, table.darkTable th {
+		border: 1px solid #4A4A4A;
+		padding: 3px 2px;
+	}
+	table.darkTable tbody td {
+		font-size: 10px;
+		color: #E6E6E6;
+	}
+	table.darkTable tr:nth-child(even) {
+		background: #888888;
+	}
+	table.darkTable tfoot td {
+		font-size: 12px;
+	}
+
+
+	@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
